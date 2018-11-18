@@ -1,0 +1,54 @@
+.todo-task {
+    background-color: #fff;
+    border-radius: 0.3em;
+    border: 1px solid #ccc;
+    margin: 0.5em 0;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.todo-task--done {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.task-delete, .task-favorite, .task-hidden {
+    float: right;
+    cursor: pointer;
+}
+
+.todo-task--favorite {
+    border: 2px solid gold;
+    background-color: #FBF2B7;
+}
+
+.todo-task--hidden {
+    opacity: 0.9;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(2px);
+}
+
+.todo-task-favorite {
+    color: gold;
+}
+
+.task-delete:hover {
+    color: red;
+}
+
+.task-favorite:hover {
+    color: gold;
+}
+
+input[type=checkbox] {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.task-label {
+    font-size: 2rem;
+    display: inline;
+}

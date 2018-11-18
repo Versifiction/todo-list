@@ -1,0 +1,15 @@
+body {
+  background-color: #414141;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  padding-right: inherit !important;
+  padding-left: inherit !important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
